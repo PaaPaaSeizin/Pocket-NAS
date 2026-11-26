@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PocketNAS Manager</string>
+    <string name="title_main">PocketNAS</string>
+    <string name="search_hint">ファイル名で検索</string>
+    <string name="search_server">全体検索</string>
+    <string name="empty_folder">このフォルダは空です</string>
+</resources>

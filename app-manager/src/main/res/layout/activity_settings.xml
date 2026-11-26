@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:title="設定"
+        app:titleTextColor="?attr/colorOnPrimary"
+        app:navigationIcon="@android:drawable/ic_menu_close_clear_cancel"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="表示"
+                android:textStyle="bold"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"/>
+
+            <com.google.android.material.materialswitch.MaterialSwitch
+                android:id="@+id/swDark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ダークテーマ"/>
+
+            <com.google.android.material.materialswitch.MaterialSwitch
+                android:id="@+id/swTrash"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="削除時はゴミ箱へ移動"/>
+
+            <com.google.android.material.materialswitch.MaterialSwitch
+                android:id="@+id/swPreload"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="画像をプリロード（ギャラリー閲覧高速化）"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="既定の並べ替え"
+                android:paddingTop="20dp"
+                android:paddingBottom="8dp"
+                android:textStyle="bold"/>
+
+            <Spinner
+                android:id="@+id/spSort"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="接続"
+                android:paddingTop="20dp"
+                android:paddingBottom="8dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tvHost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:padding="8dp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnForget"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ペアリングを解除"
+                style="@style/Widget.Material3.Button.OutlinedButton"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

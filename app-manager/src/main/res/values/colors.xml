@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFFFF</color>
+    <color name="mgr_primary">#FF3F51B5</color>
+    <color name="mgr_primary_container">#FFE8EAF6</color>
+    <color name="mgr_secondary">#FF5C6BC0</color>
+    <color name="favorite">#FFE91E63</color>
+    <color name="text_secondary">#FF5F6368</color>
+    <color name="selection_highlight">#FFE8EAF6</color>
+    <!-- ★Step8: ダイアログ用（ダーク側は values-night で上書き） -->
+    <color name="dialog_surface">#FFFFFFFF</color>
+    <color name="dialog_on_surface">#FF1A1C1E</color>
+    <color name="dialog_on_surface_variant">#FF5F6368</color>
+</resources>

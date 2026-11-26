@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.PocketNas.Manager" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/mgr_primary</item>
+        <item name="colorPrimaryContainer">@color/mgr_primary_container</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/mgr_secondary</item>
+        <!-- ★Step8: ダイアログの色をアプリの色に統一する。
+             未指定だと Material3 既定の薄紫系サーフェスになり浮いて見えた -->
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.PocketNas.AlertDialog</item>
+    </style>
+
+    <style name="ThemeOverlay.PocketNas.AlertDialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="colorPrimary">@color/mgr_primary</item>
+        <item name="colorSurface">@color/dialog_surface</item>
+        <item name="colorOnSurface">@color/dialog_on_surface</item>
+        <item name="colorOnSurfaceVariant">@color/dialog_on_surface_variant</item>
+    </style>
+</resources>

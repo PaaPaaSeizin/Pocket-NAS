@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ★Step8: ダイアログ用のダークモード色 -->
+    <color name="dialog_surface">#FF202124</color>
+    <color name="dialog_on_surface">#FFE8EAED</color>
+    <color name="dialog_on_surface_variant">#FF9AA0A6</color>
+</resources>
